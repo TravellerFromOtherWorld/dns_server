@@ -1,0 +1,65 @@
+{
+    "ya.ru": {
+        "A": [
+            {
+                "class": "IN",
+                "ttl": 600,
+                "rdlength": 4,
+                "ip": "5.255.255.242"
+            },
+            {
+                "class": "IN",
+                "ttl": 600,
+                "rdlength": 4,
+                "ip": "77.88.55.242"
+            }
+        ],
+        "MX": [
+            {
+                "class": "IN",
+                "ttl": 7200,
+                "rdlength": 16,
+                "preference": 10,
+                "exchange": "mx.yandex.ru"
+            }
+        ]
+    },
+    "e1.ru": {
+        "SOA": [
+            {
+                "class": "IN",
+                "ttl": 300,
+                "rdlength": 35,
+                "mname": "ns1.e1.ru",
+                "rname": "admins.e1.ru",
+                "serial": 2023051101,
+                "refresh": 900,
+                "retry": 300,
+                "expire": 2592000,
+                "minimum": 300
+            }
+        ],
+        "NS": [
+            {
+                "class": "IN",
+                "ttl": 300,
+                "rdlength": 11,
+                "name_server": "ns.hsdrn.ru"
+            },
+            {
+                "class": "IN",
+                "ttl": 300,
+                "rdlength": 10,
+                "name_server": "ns1.ngs.ru"
+            }
+        ],
+        "A": [
+            {
+                "class": "IN",
+                "ttl": 300,
+                "rdlength": 4,
+                "ip": "195.19.220.24"
+            }
+        ]
+    }
+}
